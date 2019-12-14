@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+canvas {
+  background: url("./img/back.jpg");
+  border-radius: 0.2em;
+  background-size: cover;
+  box-shadow: 0 0 3em #888;
+}
+
+.buttonDiv {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonDiv > button {
+  background: tomato;
+  padding: 0.5em 1em;
+  color: whitesmoke;
+  border: none;
+  box-shadow: 0 0.2em 1em #9999;
+  cursor: pointer;
+}
